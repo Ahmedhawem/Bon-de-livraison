@@ -1,0 +1,200 @@
+@page {
+    size: A4;
+    margin: 20mm;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0; 
+    font-family: poppins ;
+    font-size: 10px;
+    width: 210mm;
+    height: 297mm;
+    border: 1px solid #ddd;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-left: 50px;
+    margin-right: 70px;
+    
+  }
+  .intigo{
+    width: 74.939mm;
+    height: 22.129mm;
+  }
+  .ingco {
+    width: 90.091mm;
+    height: 22.657mm;
+    margin-left: -45px;
+  }
+  
+  .company-info {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .summary table {
+    width: 100%;
+  }
+  
+  .summary th, .summary td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  
+  
+  .barcode img {
+    width: 150px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  
+  }
+  
+  
+  
+  .card-body {
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  h5.card-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 16pt;
+    margin-top: 20px;
+    color: #243946;
+  }
+  .bon{
+    color: #243946;
+  }
+  .sous{
+    background-color:#C8D0D3 ;
+    height: 23px;
+    width: 84.174mm;
+    
+  }
+  .frais{
+    height: 23px;
+    width: 84.174mm;
+  }
+  .total{
+    background-color: #1B234E;
+    height: 23px;
+    width: 84.174mm;
+    color:white;
+  }
+  table.table {
+    border-radius: 12px;
+    padding: 5px;
+    width: 242px;
+  }
+  
+  .nb_prod{
+    color: red;
+  }
+
+  .product-card {
+    display: flex;
+    width:  115.22mm;
+    height: 126.44mm;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(produit1.png);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url(produit1.png);
+    background-size: 99.22mm 113.44mm; /* Dimensions exactes */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-position: center; /* Centre l'image */
+  }
+  
+  .product-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .product-image img {
+      width:  85.22mm;
+      height: 99.44mm;
+  }
+  
+  .product-details {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .product-details p {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #333333;
+  }
+  section{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+
+  section + .container{
+    margin-top: 22.841mm;
+  }
+
+.barcode-container {
+    display: flex; /* Aligne les enfants côte à côte */
+    align-items: center; /* Aligne verticalement au centre */
+    gap: 10px; /* Ajoute un espace entre les deux images */
+}
+
+.barcode img{
+    width: 150px; /* Ajuste la taille maximale des images */
+    height: auto; /* Garde les proportions des images */
+}
+
+.qr-code img {
+    max-width: 100px; /* Ajuste la taille maximale des images */
+    height: auto; /* Garde les proportions des images */
+}
+
+.barcode p {
+    margin: 0; /* Évite les marges inutiles */
+    text-align: center; /* Centre le texte sous le code-barres */
+}
+
+.qr-code img {
+    max-width: 100px; /* Taille du QR code */
+    height: auto;
+    margin-left: 10px;
+}

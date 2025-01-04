@@ -1,0 +1,223 @@
+@page {
+    size: A4;
+    margin: 20mm;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0; 
+    font-family: poppins ;
+    font-size: 10px;
+    width: 210mm;
+    height: 297mm;
+    border: 1px solid #ddd;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-left: 50px;
+    margin-right: 70px;
+    
+  }
+  .intigo{
+    width: 74.939mm;
+    height: 22.129mm;
+  }
+  .ingco {
+    width: 90.091mm;
+    height: 22.657mm;
+    margin-left: -45px;
+  }
+  
+  .company-info {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .summary table {
+    width: 100%;
+  }
+  
+  .summary th, .summary td {
+    padding: 5px;
+    text-align: left;
+  }
+  
+  
+  
+  .barcode img {
+    width: 150px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  
+  }
+  
+  
+  
+  .card-body {
+    padding: 15px;
+    margin-left: 5px;
+  }
+  
+  h5.card-title {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 16pt;
+    margin-top: 20px;
+    color: #243946;
+  }
+  .bon{
+    color: #243946;
+  }
+  .sous{
+    background-color:#C8D0D3 ;
+    height: 23px;
+    width: 84.174mm;
+    
+  }
+  .frais{
+    height: 23px;
+    width: 84.174mm;
+  }
+  .total{
+    background-color: #1B234E;
+    height: 23px;
+    width: 84.174mm;
+    color:white;
+  }
+  table.table {
+    border-radius: 12px;
+    padding: 5px;
+    width: 242px;
+  }
+  
+  .nb_prod{
+    color: red;
+  }
+
+  .section3 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    margin-top: 40px;
+    /*background-image: url(produit3.png);*/
+  }
+  
+  .product-container3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card3 {
+    border-radius: 10px;
+    padding: 10px;
+    
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .product-card3:nth-child(2) {
+    border-color: #003580; /* Blue border */
+    background-color: #ffe6cc; /* Light peach background */
+  }
+  
+  .image-container3 img {
+    width: 170px;
+    height: 170px;
+    /*border-bottom: 2px solid #ffa500;*/
+    border-radius: 8px 8px 0 0;
+    margin-top: 20px;
+  }
+  
+  .product-details3 p {
+    margin: 5px 0;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  
+
+  .barcode-container {
+    display: flex; /* Aligne les enfants côte à côte */
+    align-items: center; /* Aligne verticalement au centre */
+    gap: 10px; /* Ajoute un espace entre les deux images */
+}
+
+.barcode img{
+    width: 150px; /* Ajuste la taille maximale des images */
+    height: auto; /* Garde les proportions des images */
+}
+
+.qr-code img {
+    max-width: 100px; /* Ajuste la taille maximale des images */
+    height: auto; /* Garde les proportions des images */
+}
+
+.barcode p {
+    margin: 0; /* Évite les marges inutiles */
+    text-align: center; /* Centre le texte sous le code-barres */
+}
+
+.qr-code img {
+    max-width: 100px; /* Taille du QR code */
+    height: auto;
+    margin-left: 10px;
+}
+
+.prod1{
+    width: 72.7mm ;
+    height: 107.53mm;
+    background-image: url(prod1.png);
+    background-size: 65.7mm 105.53mm; /* Dimensions exactes */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-position: center; /* Centre l'image */
+}
+.prod2{
+    margin-top: 20px;
+    width: 60.7mm ;
+    height: 97.53mm;
+    background-image: url(prod2.png);
+    background-size: 55.7mm 98.53mm; /* Dimensions exactes */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-position: center; /* Centre l'image */
+}
+.prod3{
+    width: 72.7mm ;
+    height: 107.53mm;
+    background-image: url(prod3.png);
+    background-size: 65.7mm 105.53mm; /* Dimensions exactes */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    background-position: center; /* Centre l'image */
+}
+
+.prod3 img, .prod1 img{
+    margin-top: 40px;
+}
